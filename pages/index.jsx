@@ -9,7 +9,7 @@ export default function HomePage({ pokemons }) {
 
   return (
     <>
-      <Layout title='Listado de Pokémons'>
+      <Layout>
         <Grid.Container gap={2} justify='flex-start'>
           {
             pokemons.map(({ id, name, image }) => (
